@@ -48,7 +48,7 @@ Handled missing values using forward-fill and row filtering
 Converted YEAR and DOY into a proper datetime column
 Extracted monthly features for seasonal analysis
 # 2. Exploratory Data Analysis (EDA)
-📈 Time Series Analysis
+- Time Series Analysis
 Monthly average temperature trends
 Monthly total precipitation patterns
 Identification of seasonal cycles
