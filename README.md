@@ -61,6 +61,7 @@ Bubble charts showing interaction between temperature, humidity, and rainfall
 # 3. Outlier Detection
 Applied Z-score method (|Z| > 3)
 Retained or capped extreme values due to their environmental significance
+
  # Key Insights
  
 * Clear seasonal patterns observed across all countries
@@ -69,6 +70,23 @@ Retained or capped extreme values due to their environmental significance
 * Temperature and humidity exhibit inverse relationships in some regions
 * Climate variability differs across countries, highlighting regional diversity
 
+# Cross-Country Climate Vulnerability Analysis
+
+A comparative analysis was conducted across all five countries to evaluate relative climate vulnerability based on:
+
+### Temperature trends
+Rainfall variability
+Extreme heat frequency
+Consecutive dry days
+### Key Findings
+Sudan recorded the highest average temperature and the greatest number of extreme heat days
+Tanzania and Nigeria exhibited the highest precipitation variability
+Sudan experienced the highest number of annual dry days, indicating severe drought exposure
+Ethiopia showed moderate climate conditions but notable rainfall variability
+
+Statistical testing using one-way ANOVA confirmed that temperature differences across countries were statistically significant (p < 0.05).
+
+
 ##  Tools & Technologies
 Python
 Pandas
@@ -76,3 +94,4 @@ NumPy
 Matplotlib
 Seaborn
 SciPy
+Jupyter Notebook
